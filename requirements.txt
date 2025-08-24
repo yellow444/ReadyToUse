@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+beautifulsoup4
+rapidfuzz
+pandas
+psycopg2-binary
+httpx
+hyperscan
+numpy
+numba
+cachetools
+pytest
