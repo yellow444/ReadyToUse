@@ -1,8 +1,8 @@
 Running 1m test @ http://192.168.50.100:8080/item-analytics
   16 threads and 64 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency     4.42ms    1.09ms  50.69ms   83.25%
-    Req/Sec     0.91k    80.49     1.81k    79.32%
-  871218 requests in 1.00m, 120.47MB read
-Requests/sec:  14497.09
-Transfer/sec:      2.00MB
+    Latency    14.27ms    3.39ms 184.74ms   88.32%
+    Req/Sec   282.36     38.21   737.00     68.68%
+  270273 requests in 1.00m, 37.37MB read
+Requests/sec:   4497.42
+Transfer/sec:    636.84KB
