@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "Cython>=3.0", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ReadyToUse"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "python-dotenv",
+    "requests",
+    "beautifulsoup4",
+    "rapidfuzz",
+    "pandas",
+    "psycopg2-binary",
+    "httpx",
+    "hyperscan",
+    "numpy",
+    "numba",
+    "cachetools",
+]
+
+[tool.setuptools.packages.find]
+where = ["app"]

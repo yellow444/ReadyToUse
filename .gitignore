@@ -1,0 +1,8 @@
+/app/__pycache__**
+/__pycache__/**
+/tests/__pycache__/**
+/build**
+/app/ReadyToUse.egg-info/**
+/app/_assign_abc.c
+/routes/__pycache__/**
+/app/*.pyd
